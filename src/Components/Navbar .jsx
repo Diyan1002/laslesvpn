@@ -12,13 +12,13 @@ const Navbar = () => {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo and LaslesVPN text */}
-        <div className="flex items-center ml-16 space-x-2">
-          <img src={logo} alt="LaslesVPN Logo" className="h-8" />
-          <span className="text-lg font-semibold text-[#0B132A] font-rubik">
-            Lasles
-            <span className="font-bold">VPN</span>
-          </span>
-        </div>
+      <div className="flex items-center ml-1 sm:ml-8 lg:ml-16 space-x-2">
+      <img src={logo} alt="LaslesVPN Logo" className="h-6 sm:h-7 lg:h-8" />
+      <span className="text-base sm:text-lg font-semibold text-[#0B132A] font-rubik">
+       Lasles
+       <span className="font-bold">VPN</span>
+      </span>
+   </div>
 
         {/* Navbar links (Desktop) */}
         <ul className="hidden lg:flex space-x-8">
