@@ -5,7 +5,7 @@ import React from 'react';
 // Import images
 import userIcon from '../assets/user.png'; // Replace with actual image name
 import locationIcon from '../assets/location.png'; // Replace with actual image name
-import serverIcon from '../assets/server.png'; // Replace with actual image name
+import serverIcon from '../assets/Server.png'; // Replace with actual image name
 
 const StatsSection = () => {
   return (
